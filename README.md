@@ -83,16 +83,16 @@ Before running, modify the `CONFIG` object in the script to specify:
 ### 4.3. Running the Pipeline
 
 Place your data file in the project directory and execute the script:
-`python your_script_name.py`
+`TF-SYN-NER-Rel.py`
 The pipeline will perform all steps: loading and filtering data, NLP preprocessing, building matrices for both standard and custom models, calculating topic coherence, plotting a comparison graph, and printing the final topics.
 ### 5. Key Findings & Results
 Experiments conducted on large Russian news corpora demonstrate the superiority of the TF-SYN-NER-Rel method.
-Quantitative Comparison (Topic Coherence C_v)
+Quantitative Comparison (Topic Coherence C_v) `Validation.py`
 The proposed method (blue line) consistently achieves higher topic coherence scores than the standard TF-IDF baseline (red line), indicating more meaningful and semantically cohesive topics. 
 
 ![alt text](Cv_Std.png)
 
-The actual output of the executed code, using the applied settings and filtering, is shown in the figure below:
+The actual output of the executed code `TF-SYN-NER-Rel.py`, using the applied settings and filtering, is shown in the figure below:
 
 ![alt text](FINANCE.png)
 
