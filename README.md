@@ -88,9 +88,9 @@ The pipeline will perform all steps: loading and filtering data, NLP preprocessi
 ### 5. Key Findings & Results
 Experiments conducted on large Russian news corpora demonstrate the superiority of the TF-SYN-NER-Rel method.
 Quantitative Comparison (Topic Coherence C_v)
-The proposed method (blue line) consistently achieves higher topic coherence scores than the standard TF-IDF baseline (red line), indicating more meaningful and semantically cohesive topics.
+The proposed method (blue line) consistently achieves higher topic coherence scores than the standard TF-IDF baseline (red line), indicating more meaningful and semantically cohesive topics. 
 
-![alt text](StdMean.png)
+![alt text](Cv_Std.png)
 
 The actual output of the executed code, using the applied settings and filtering, is shown in the figure below:
 
