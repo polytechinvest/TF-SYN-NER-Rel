@@ -87,7 +87,7 @@ Place your data file in the project directory and execute the script:
 The pipeline will perform all steps: loading and filtering data, NLP preprocessing, building matrices for both standard and custom models, calculating topic coherence, plotting a comparison graph, and printing the final topics.
 ### 5. Key Findings & Results
 Experiments conducted on large Russian news corpora demonstrate the superiority of the TF-SYN-NER-Rel method.
-Quantitative Comparison (Topic Coherence C_v) `Validation.py`
+Quantitative Comparison (Topic Coherence C_v) `coherence_deviation_pipeline.py`
 The proposed method (blue line) consistently achieves higher topic coherence scores than the standard TF-IDF baseline (red line), indicating more meaningful and semantically cohesive topics. 
 
 ![alt text](Cv_Std.png)
