@@ -351,7 +351,7 @@ def plot_comparison(
 
 def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="TF-SYN-NER-Rel topic coherence comparison (C_v).")
-    parser.add_argument("--input", default="Новости МК_utf8.csv", help="Path to input CSV file.")
+    parser.add_argument("--input", default="Новости_МК_full_финал_2.csv", help="Path to input CSV file.")
     parser.add_argument("--sample-size", type=int, default=15000, help="Number of documents to sample.")
     parser.add_argument("--sample-seed", type=int, default=42, help="Random seed for sampling rows.")
     parser.add_argument("--min-topics", type=int, default=3, help="Minimum number of topics.")
