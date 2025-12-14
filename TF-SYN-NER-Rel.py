@@ -29,7 +29,7 @@ from gensim.corpora.dictionary import Dictionary
 
 CONFIG = {
     "data": {
-        "filepath": "Новости МК_utf8.csv",
+        "filepath": "Новости_МК_full_финал_2.csv",
         "chunk_size": 50000,
         "rename_columns": {"Текст": "full_text", "Тема": "header_text"},
         "required_columns": ["full_text", "header_text"],
@@ -456,3 +456,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
